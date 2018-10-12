@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Comparison</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+    });
+</script>
+<!--end of Navigation bar-->
+
+    <div class="container1">
+        <div class="row imagetiles">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="assets/images/cloudymap.png" class="img-responsive">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="assets/images/humiditymap.png" class="img-responsive">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="assets/images/temperaturemap.png" class="img-responsive">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="assets/images/windmap.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6 {
+            padding: 0px;
+        }
+        @media(max-width: 480px){
+        div.imagetiles div.col-lg-3.col-md-3.col-sm-3.col-xs-6{
+      padding: 5px;}
+}
+    </style>
+
+</body>
+
+</html>
