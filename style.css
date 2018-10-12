@@ -29,3 +29,10 @@
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 12px; /* Add some space below the input */
 }
+#example1 {
+            border: 2px solid black;
+            padding: 25px;
+            background: url(background.jpg);
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
