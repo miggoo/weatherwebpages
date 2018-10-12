@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <style>
+    <link rel="stylesheet" href="style.css">
         #example1 {
             border: 2px solid black;
             padding: 25px;
@@ -62,7 +62,7 @@
     </script>
     <!--end of Navigation bar-->
 
-    <div class="container">
+    <div class="container-fluid">
         <div id="example1">
             <h3>Bootstrap Project</h3>
             <p>The aim of this project was to pull climate data from XXXX, manipulate it in Pandas and use Matplotlib
@@ -71,7 +71,8 @@
 
         </div>
     </div>
-    <div class="container2">
+    <div class="container">
+        <div class="col-xs-12 col-md-6 col-l-3 col-xl-1">
         <a target="_blank" href="Cloud Cover.html">
             <img src="assets/images/cloudymap.png" alt="Cloud Cover Page">
             <a target="_blank" href="Humidity.html">
@@ -80,6 +81,7 @@
                     <img src="assets/images/temperaturemap.png" alt="Cloud Cover Page">
                     <a target="_blank" href="Wind.html">
                         <img src="assets/images/windmap.png" alt="Wind Page">
+                        </div>
     </div>
 
 </body>
